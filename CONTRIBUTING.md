@@ -1,9 +1,6 @@
 # Contributing
 
-<img src="https://ci6.googleusercontent.com/proxy/C8UxgGwLaoucxBN9rJCYvVOYnYFMjgd6Zy_xbQpuAE9dXa71YudYOwJN7MYZ4azkNQNc49u1d84eyt7Gdw2KQ8MgJJ9PJbHdbW9STiFzoNP-URezcXBKMfn0vd-1g7W5blB0WGFURZAmVbtJynA5sMV1xGcVA70=s0-d-e1-ft#https://res.cloudinary.com/dhoayd4fv/image/upload/v1664731326/MLSC/HacktoberFest_Header_3_xvtpyn.png"/>
-
-
-Hi there! We at [Microsoft Learn Student Chapter]("https://github.com/MicrosoftStudentChapter") are thrilled that you'd like to contribute to our projects under Hacktoberfest.
+![HF](https://user-images.githubusercontent.com/93343362/196242359-6b79d59e-bcdd-444c-bc17-2dfa52cf0f5b.jpeg)
 
 Contributions to this project are [released](https://help.github.com/articles/github-terms-of-service/#6-contributions-under-repository-license) to the public under the [project's open source license](LICENSE).
 
