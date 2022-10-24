@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 45px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    color: white;
+    font-size:40px;
+    letter-spacing:2px;
+    cursor:pointer;
+}
+span{
+    color:rgb(238, 107, 107)
+}
+nav ul li{
+    display: inline-block;
+    padding:10px 20px;
+    list-style-type: none;
+}
+nav ul li a{
+    color: rgba(199, 167, 167);
+    text-decoration: none;
+    font-weight:bold;
+    text-transform: caoitalize;
+}
+nav ul li a:hover{
+    color: rgb(197, 63, 63);
+    transition: 0.5s;
+}
+.btn{
+    background-color:red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius:30px;
+    transition: transform 0.5s;
+}
+.btn:hover{
+    transform:scale(1.2);
+}
+.content{
+    position:absolute;
+    top:50%;
+    left:10%;
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+h1{
+    color: white;
+    margin: 10px 0px 10px;
+    font-size: 60px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.news{
+    width: 300px;
+    max-width: 100%;
+    position: relative;
+}
+.news form input:first-child{
+    display: inline-block;
+    width: 100%;
+    border: 2px solid rgb(244, 97, 97);
+    padding: 14px 100px 14px 15px;
+    border-radius: 30px;
+}
+.news form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    box-shadow: 0px 0px 5px #000000, 0px 0px 10px #858585;
+    top: 5px;
+    right: 5px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 400px;
+}
+.about-text{
+    width: 350px;
+}
+.main{
+    width: 1000px;
+    max-width: 90%;
+    margin :0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 70px;
+    margin-bottom:30px ;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 20px ;
+    margin-bottom: 45px;
+}
+button{
+    background-color: rgb(234, 94, 94);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding : 15px 30px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(198, 67, 67);
+    cursor: pointer;
+}
+.service{
+    background: #141313;
+    width: 100%;
+    padding: 10px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width:1000px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 350px;
+    width: 300px;
+    padding: 20px 35px ;
+    background : #191919;
+    border-radius: 20px;
+    margin:15px;
+    position: relative;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 20px 0px;
+    color: red;
+}
+h5{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.card .button{
+    background-color: rgb(183, 65, 65);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(207, 98, 98);
+    cursor: pointer;
+}
+.Contact-me{
+    width: 100%;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.Contact-me p{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.Contact-me .button-2{
+    background-color: rgb(183, 65, 65);
+    color: white ;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.Contact-me .button-2:hover{
+    background-color: transparent;
+    border: 2px solid rgb(207, 98, 98);
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 15px;
+    width: 500px;
+    text-align: center;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(216, 85, 85);
+    border-radius: 50%;
+    margin: 20px 10px;
+    color: white;
+    text-decoration: none;
+}
+.end{
+    position: absolute;
+    color: rgb(163, 45, 45);
+    bottom: 30px;
+    font-size: 10px;
+}
